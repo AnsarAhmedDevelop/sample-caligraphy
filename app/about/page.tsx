@@ -62,7 +62,7 @@ export default function About() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950/90 backdrop-blur-sm border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <Link href="/" className="text-2xl font-bold  text-white">
               Creative Arts
             </Link>
             <div className="hidden md:flex space-x-8">
@@ -81,7 +81,7 @@ export default function About() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className={`space-y-8 transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
               <h1 className="text-6xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                <span className="text-white">
                   About My
                 </span>
                 <br />
@@ -132,7 +132,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto px-6">
           <div className={`text-center mb-16 transform transition-all duration-1000 ${skillsVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              <span className=" text-white">
                 My Artistic Skills
               </span>
             </h2>
@@ -271,7 +271,7 @@ export default function About() {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Ready to bring your artistic vision to life? I'd love to discuss your project and explore how we can create something beautiful together.
           </p>
-          <Link href="/contact" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
+          <Link href="/contact" className="bg-gray-800 hover:text-gray-800 hover:bg-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
             Start Your Project
           </Link>
         </div>
@@ -282,7 +282,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 Creative Arts
               </h3>
               <p className="text-gray-400">

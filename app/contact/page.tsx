@@ -65,7 +65,7 @@ export default function Contact() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-950/90 backdrop-blur-sm border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <Link href="/" className="text-2xl font-bold text-white ">
               Creative Arts
             </Link>
             <div className="hidden md:flex space-x-8">
@@ -83,7 +83,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <h1 className="text-6xl lg:text-7xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+              <span className="text-white">
                 Let's Create
               </span>
               <br />
@@ -195,7 +195,7 @@ export default function Contact() {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 disabled:from-gray-600 disabled:to-gray-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-[1.02] disabled:scale-100 hover:shadow-lg hover:shadow-purple-500/25 disabled:cursor-not-allowed whitespace-nowrap"
+                    className="w-full bg-gray-800 hover:text-gray-800 hover:bg-white disabled:from-gray-600 disabled:to-gray-600 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-[1.02] disabled:scale-100 hover:shadow-lg hover:shadow-purple-500/25 disabled:cursor-not-allowed whitespace-nowrap"
                   >
                     {isSubmitting ? 'Sending Message...' : 'Send Message'}
                   </button>
